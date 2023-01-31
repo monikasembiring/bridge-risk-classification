@@ -27,5 +27,3 @@ In January 2022, Fern Hollow Bridge collapsed on the day President Biden visited
 
 *Notes:
 Some visualization in the Notebook is generated using Altair, and it cannot be shown in [Github's notebook viewer because it does not execute any embedded Javascript code](https://stackoverflow.com/questions/71346406/why-are-my-altair-data-visualizations-not-showing-up-in-github). You can download the Notebook to open it in your local Jupyter Notebook or open it using Google Colab.* 
-
-![project-highlight](https://user-images.githubusercontent.com/7912516/215890344-141ae815-d88b-440e-9e95-c45dac0cc74c.png)
