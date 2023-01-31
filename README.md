@@ -25,4 +25,3 @@ The purpose of this project is to predict the conditions category of the bridges
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
 * [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
