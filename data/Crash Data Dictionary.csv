@@ -1,0 +1,299 @@
+﻿_id,Column Name,Description,Data Type,Codes
+1,ACCESS_CTRL,Access Control Code,TEXT,No code provided
+2,ADJ_RDWY_SEQ,Adjusted Roadway Sequence Number,NUMBER,""
+3,AGGRESSIVE_DRIVING,Aggressive Driving Indicator,NUMBER,"0 = No, 1 = Yes"
+4,ALCOHOL_RELATED,Alcohol Related Indicator,NUMBER,"0 = No, 1 = Yes"
+5,AUTOMOBILE_COUNT,Total Amount of Automobiles Involved,NUMBER,""
+6,BELTED_DEATH_COUNT,Total Deaths of belted occupants,NUMBER,""
+7,BELTED_MAJ_INJ_COUNT,Total Major Injuries of belted occupants,NUMBER,""
+8,BICYCLE,Bicycle Indicator,NUMBER,"0 = No, 1 = Yes"
+9,BICYCLE_COUNT,Total amount of Bicycles involved,NUMBER,""
+10,BICYCLE_DEATH_COUNT,Total amount of Bicyclist Fatalities,NUMBER,""
+11,BICYCLE_MAJ_INJ_COUNT,Total amount of Bicyclist Major Injuries,NUMBER,""
+12,BUS_COUNT,Total amount of Buses involved,NUMBER,""
+13,CELL_PHONE,Driver Using Cell Phone Indicator,NUMBER,"0 = No, 1 = Yes"
+14,COLLISION_TYPE,Collision category that defines the crash,TEXT,0 - Non collision
+15,"","","",1 - Rear-end
+16,"","","",2 - Head-on
+17,"","","",3 - Rear-to-rear (Backing)
+18,"","","",4 - Angle
+19,"","","",5 - Sideswipe (same dir.)
+20,"","","",6 - Sideswipe (Opposite dir.)
+21,"","","",7 - Hit fixed object
+22,"","","",8 - Hit pedestrian
+23,"","","",9 - Other or Unknown
+24,COMM_VEH_COUNT,Total Commercial vehicles involved,NUMBER,""
+25,COMM_VEHICLE,Crash has at least 1 involved Commercial Vehicle,NUMBER,"0 = No, 1 = Yes"
+26,CONS_ZONE_SPD_LIM,Speed limit for the Construction Zone,TEXT,""
+27,COUNTY,County Code Number where crash occurred,TEXT,02 - Allegheny County
+28,CRASH_CRN,Crash Record Number,NUMBER,""
+29,CRASH_MONTH,Month when the crash occurred,TEXT,""
+30,CRASH_YEAR,Year when the crash occurred,TEXT,""
+31,CRN,Crash Record Number,NUMBER,""
+32,CROSS_MEDIAN,Cross Median Indicator,NUMBER,"0 = No, 1 = Yes"
+33,CURVE_DVR_ERROR,Curve in Road Driver Error Indicator,NUMBER,"0 = No, 1 = Yes"
+34,CURVED_ROAD,Curve in Road,NUMBER,"0 = No, 1 = Yes"
+35,DAY_OF_WEEK,Day of the Week code when crash occurred,TEXT,1 - Sunday
+36,"","","",2 - Monday
+37,"","","",3 - Tuesday
+38,"","","",4 - Wednesday
+39,"","","",5 - Thursday
+40,"","","",6 - Friday
+41,"","","",7 - Saturday
+42,DEC_LAT,Decimal Latitude for SR's,NUMBER,Degrees.Decimal Degrees
+43,DEC_LONG,Decimal Longitude for SR's,NUMBER,Degrees.Decimal Degrees
+44,DEER_RELATED,Deer Related Indicator,NUMBER,"0 = No, 1 = Yes"
+45,DISTRACTED,Distracted Driver Indicator,NUMBER,"0 = No, 1 = Yes"
+46,DISTRICT,District Number where crash occurred,TEXT,"11 - District 11 (Allegheny, Beaver, Lawrence Counties)"
+47,DRINKING_DRIVER,Drinking Driver Indicator,NUMBER,"0 = No, 1 = Yes"
+48,DRIVER_16YR,Driver is 16 Years of Age Indicator,NUMBER,"0 = No, 1 = Yes"
+49,DRIVER_17YR,Driver is 17 Years of Age Indicator,NUMBER,"0 = No, 1 = Yes"
+50,DRIVER_65_74YR,Driver is between 65 and 74 Indicator,NUMBER,"0 = No, 1 = Yes"
+51,DRIVER_75PLUS,Driver is 75 Years of Age Plus Indicator,NUMBER,"0 = No, 1 = Yes"
+52,DRIVER_COUNT_16YR,Total amount of 16 year old drivers,NUMBER,""
+53,DRIVER_COUNT_17YR,Total amount of 17 year old drivers,NUMBER,""
+54,DRIVER_COUNT_65_74YR,Total amount of 65 to 74 year old drivers,NUMBER,""
+55,DRIVER_COUNT_75PLUS,Total amount of drivers ages 75 and up,NUMBER,""
+56,FATAL,Fatality Indicator,NUMBER,"0 = No, 1 = Yes"
+57,FATAL_COUNT,Total amount of fatalities involved,NUMBER,""
+58,FATAL_OR_MAJ_INJ,Fatality or Major Injury Indicator,NUMBER,"0 = No, 1 = Yes"
+59,FATIGUE_ASLEEP,Fatigue or Asleep Indicator,NUMBER,"0 = No, 1 = Yes"
+60,FIRE_IN_VEHICLE,At least 1 Vehicle with Fire Damage,NUMBER,"0 = No, 1 = Yes"
+61,FLAG_CRN,Crash Record Number,NUMBER,""
+62,HAZARDOUS_TRUCK,At least one Heavy Truck carrying Hazardous Material,NUMBER,"0 = No, 1 = Yes"
+63,HEAVY_TRUCK_COUNT,Total amount of Heavy Trucks involved,NUMBER,""
+64,HIT_BARRIER,Hit Barrier Indicator,NUMBER,"0 = No, 1 = Yes"
+65,HIT_BRIDGE,Hit Bridge Indicator,NUMBER,"0 = No, 1 = Yes"
+66,HIT_DEER,Hit Deer Indicator,NUMBER,"0 = No, 1 = Yes"
+67,HIT_EMBANKMENT,Hit Embankment Indicator,NUMBER,"0 = No, 1 = Yes"
+68,HIT_FIXED_OBJECT,Hit Fixed Object Indicator,NUMBER,"0 = No, 1 = Yes"
+69,HIT_GDRAIL,Hit Guide Rail Indicator,NUMBER,"0 = No, 1 = Yes"
+70,HIT_GDRAIL_END,Hit Guide Rail End Indicator,NUMBER,"0 = No, 1 = Yes"
+71,HIT_POLE,Hit Pole Indicator,NUMBER,"0 = No, 1 = Yes"
+72,HIT_TREE_SHRUB,Hit Tree or Shrub Indicator,NUMBER,"0 = No, 1 = Yes"
+73,HO_OPPDIR_SDSWP,Head on or Side Swipe Indicator,NUMBER,"0 = No, 1 = Yes"
+74,HOUR_OF_DAY,The hour of Day when the crash occurred,TEXT,00 to 23
+75,HVY_TRUCK_RELATED,Heavy Truck Related Indicator,NUMBER,"0 = No, 1 = Yes"
+76,ICY_ROAD,Icy Road Indicator,NUMBER,"0 = No, 1 = Yes"
+77,ILLEGAL_DRUG_RELATED,At Least 1 Driver or Pedestrian had reported or suspected Illegal Drug Use,NUMBER,"0 = No, 1 = Yes"
+78,ILLUMINATION,Code that defines lighting at crash scene,TEXT,1 - Daylight
+79,"","","",2 - Dark - no street lights
+80,"","","",3 - Dark - street lights
+81,"","","",4 - Dusk
+82,"","","",5 - Dawn
+83,"","","",6 - Dark - unknown roadway lighting
+84,"","","",8 - Other
+85,"","","",9 - Unknown (expired)
+86,ILLUMINATION_DARK,Illumination Indicates that the Crash Scene Lighting was Dark,NUMBER,"0 = No, 1 = Yes"
+87,IMPAIRED_DRIVER,At least One Driver was Impaired by Drugs or Alcohol,NUMBER,""
+88,INJURY,Injury Indicator,NUMBER,"0 = No, 1 = Yes"
+89,INJURY_COUNT,Total count of all injuries sustained,NUMBER,""
+90,INJURY_OR_FATAL,At least 1 Person Was Injured or Killed in the Crash,NUMBER,"0 = No, 1 = Yes"
+91,INTERSECT_TYPE,Code that defines the Intersection Type,TEXT,00 - Mid-block
+92,"","","",01 - Four way intersection
+93,"","","","02 - ""T"" intersection"
+94,"","","","03 - ""Y"" intersection"
+95,"","","",04 - Traffic circle or Round About
+96,"","","",05 - Multi-leg intersection
+97,"","","",06 - On ramp
+98,"","","",07 - Off ramp
+99,"","","",08 - Crossover
+100,"","","",09 - Railroad crossing
+101,"","","",10 - Other
+102,"","","",99 - Unknown (expired)
+103,INTERSECTION,Intersection Indicator,NUMBER,"0 = No, 1 = Yes"
+104,INTERSTATE,Non-Turnpike Interstate Indicator,NUMBER,"0 = No, 1 = Yes"
+105,LANE_CLOSED,Was there a lane closure? (Y/N),TEXT,"1=Y, 0 = N"
+106,LN_CLOSE_DIR,Direction of traffic in closed lane (s),NUMBER,1 - North
+107,"","","",2 - South
+108,"","","",3 - East
+109,"","","",4 - West
+110,"","","",5 - North And South
+111,"","","",6 - East and West
+112,"","","",7 - All (N
+113,LANE_COUNT,Travel Lane Count,TEXT,""
+114,LATITUDE,GPS Coordinates from Police if present,TEXT,Degrees:Min:Sec.Dec Sec
+115,LIMIT_65MPH,65MPH Speed Limit Indicator,NUMBER,"0 = No, 1 = Yes"
+116,LOCAL_ROAD,Local Road Indicator,NUMBER,"0 = No, 1 = Yes"
+117,LOCAL_ROAD_ONLY,Local Road Only Indicator,NUMBER,"0 = No, 1 = Yes"
+118,LOCATION_TYPE,Code that defines the crash location,TEXT,0 - Not applicable
+119,"","","",1 - Underpass
+120,"","","",2 - Ramp
+121,"","","",3 - Bridge
+122,"","","",4 - Tunnel
+123,"","","",5 - Toll Booth
+124,"","","",6 - Cross over related
+125,"","","",7 - Driveway or Parking Lot
+126,"","","",8 - Ramp and bridge
+127,"","","",9 - Unknown
+128,LONGITUDE,GPS Coordinates from Police if present,TEXT,Degrees:Min:Sec.Dec Sec
+129,MAJ_INJ_COUNT,Total amount of Major Injuries involved,NUMBER,""
+130,MAJOR_INJURY,At least 1 Person Sustained a Major Injury,NUMBER,"0 = No, 1 = Yes"
+131,MAX_SEVERITY_LEVEL,Injury severity level of the crash,TEXT,0 - Not injured
+132,"","","",1 - Killed
+133,"","","",2 - Major injury
+134,"","","",3 - Moderate injury
+135,"","","",4 - Minor injury
+136,"","","",8 - Injury/ Unknown Severity
+137,"","","",9 - Unknown
+138,MC_DRINKING_DRIVER,At least 1 Motorcycle driver has reported or suspected Alcohol Use,NUMBER,"0 = No, 1 = Yes"
+139,MCYCLE_DEATH_COUNT,Total amount of Motorcyclist fatalities,NUMBER,""
+140,MCYCLE_MAJ_INJ_COUNT,Total amount of Motorcyclist Major Injuries,NUMBER,""
+141,MIN_INJ_COUNT,Total amount of Minimal Injuries,NUMBER,""
+142,MINOR_INJURY,At least 1 Person Sustained a Minor Injury,NUMBER,"0 = No, 1 = Yes"
+143,MOD_INJ_COUNT,Total amount of Moderate Injuries,NUMBER,""
+144,MODERATE_INJURY,At least 1 Person Sustained a Moderate Injury,NUMBER,"0 = No, 1 = Yes"
+145,MOTORCYCLE,Motorcycle Indicator,NUMBER,"0 = No, 1 = Yes"
+146,MOTORCYCLE_COUNT,Total amount of Motorcycles Involved,NUMBER,""
+147,MUNICIPALITY,County Municipality Code,TEXT,See additional resource
+148,NHTSA_AGG_DRIVING,The Crash meets the NHTSA definition of Aggressive Driving,NUMBER,"0 = No, 1 = Yes"
+149,NO_CLEARANCE,No Clearance Indicator,NUMBER,"0 = No, 1 = Yes"
+150,NON_INTERSECTION,Non Intersection Indicator,NUMBER,"0 = No, 1 = Yes"
+151,NTFY_HIWY_MAINT,PENNDOT highway maintenance notified?,TEXT,"0 = No, 1 = Yes"
+152,OFFSET,Offset Number,TEXT,""
+153,OVERTURNED,Overturned Vehicle Indicator,NUMBER,"0 = No, 1 = Yes"
+154,PED_COUNT,Total amount of Pedestrians involved,NUMBER,""
+155,PED_DEATH_COUNT,Total amount of Pedestrian fatalities,NUMBER,""
+156,PED_MAJ_INJ_COUNT,Total amount of Pedestrian Major Injuries,NUMBER,""
+157,PEDESTRIAN,Pedestrian Indicator,NUMBER,"0 = No, 1 = Yes"
+158,PERSON_COUNT,Total amount of people involved,NUMBER,""
+159,PHANTOM_VEHICLE,Phantom Vehicle Indicator,NUMBER,"0 = No, 1 = Yes"
+160,POLICE_AGCY,Code of the reporting Police Agency,TEXT,See additional resource
+161,PROPERTY_DAMAGE_ONLY,Property Damage Only Indicator,NUMBER,"0 = No, 1 = Yes"
+162,PSP_REPORTED,Crash Investigated by the Pennsylvania State Police,NUMBER,"0 = No, 1 = Yes"
+163,RDWY_ORIENT,Roadway Orientation Code,TEXT,N- North
+164,RDWY_SEQ_NUM,Crash Roadway Sequence Number,NUMBER,""
+165,RDWY_SURF_TYPE_CD,Code for the Roadway surface type,TEXT,1 - Concrete
+166,"","","",2 - Blacktop
+167,"","","",3 - Brick or Block
+168,"","","","4 - Slag, Gravel, or Stone"
+169,"","","",5 - Dirt
+170,"","","",8 - Other
+171,"","","",9 - Unknown
+172,REAR_END,Rear End Collision Indicator,NUMBER,"0 = No, 1 = Yes"
+173,RELATION_TO_ROAD,Code for the crash's relativity to the road,TEXT,1 - On roadway
+174,"","","",2 - Shoulder
+175,"","","",3 - Median
+176,"","","",4 - Roadside (off trafficway; on vehicle area)
+177,"","","",5 - Outside trafficway (in area not meant for vehicles)
+178,"","","",6 - In parking lane
+179,"","","",7 - Gore (intersection of ramp and highway)
+180,"","","",9 - Unknown
+181,ROAD_CONDITION,Roadway Surface Condition Code,TEXT,0 - Dry
+182,"","","",1 - Wet
+183,"","","",2 - Sand/ mud/ dirt/ oil/ or gravel
+184,"","","",3 - Snow covered
+185,"","","",4 - Slush
+186,"","","",5 - Ice
+187,"","","",6 - Ice Patches
+188,"","","",7 - Water - standing or moving
+189,"","","",8 - Other
+190,"","","",9 - Unknown (expired)
+191,ROAD_OWNER,Road OWNER,TEXT,1 - Interstate - non turnpike
+192,"","","",2 - State highway
+193,"","","",3 - County road
+194,"","","",4 - Local road or street
+195,"","","",5 - East-West portion of turnpike
+196,"","","",6 - Turnpike spur (extension)
+197,"","","",7 - Private Road
+198,"","","",9 - Other or Unknown
+199,ROADWAY_COUNTY,County Code Number where crash occurred,TEXT,02 - Allegheny County
+200,ROADWAY_CRN,Crash Record Number,NUMBER,""
+201,ROUTE,Route Number,TEXT,""
+202,RUNNING_RED_LT,Driver Running Red Light Indicator,NUMBER,"0 = No, 1 = Yes"
+203,RUNNING_STOP_SIGN,Driver Running Stop Sign Indicator,NUMBER,"0 = No, 1 = Yes"
+204,SCH_BUS_IND,Did the crash involve a School Bus? (Y/N),TEXT,Y = Yes N = No
+205,SCH_ZONE_IND,Did the crash occur in a School Zone? (Y/N),TEXT,Y = Yes N = No
+206,SCHOOL_BUS,School Bus Indicator,NUMBER,"0 = No, 1 = Yes"
+207,SCHOOL_ZONE,School Zone Indicator,NUMBER,"0 = No, 1 = Yes"
+208,SEGMENT,Segment Number,TEXT,""
+209,SHLDR_RELATED,Shoulder Related Indicator,NUMBER,"0 = No, 1 = Yes"
+210,SIGNALIZED_INT,Signalized Intersection Indicator,NUMBER,"0 = No, 1 = Yes"
+211,SMALL_TRUCK_COUNT,Total amount of Small Trucks involved,NUMBER,""
+212,SNOW_SLUSH_ROAD,Snow Slush Road Indicator,NUMBER,"0 = No, 1 = Yes"
+213,SPEC_JURIS_CD,Special Jurisdiction Code,NUMBER,0 - No Special Jurisdiction
+214,"","","",1 - National Park
+215,"","","",2 - Military
+216,"","","",3 - Indian Reservation
+217,"","","",4 - College/University Campus
+218,"","","",5 - Other Federal Sites
+219,"","","",8 - Other
+220,"","","",9 - Unknown
+221,SPEED_LIMIT,Speed Limit,TEXT,""
+222,SPEEDING,Speeding Indicator,NUMBER,"0 = No, 1 = Yes"
+223,SPEEDING_RELATED,Speeding Related Indicator,NUMBER,"0 = No, 1 = Yes"
+224,STATE_ROAD,State Road Indicator,NUMBER,"0 = No, 1 = Yes"
+225,STOP_CONTROLLED_INT,Stop Controlled Intersection Indicator,NUMBER,"0 = No, 1 = Yes"
+226,STREET_NAME,Name of the Roadway,TEXT,""
+227,SUDDEN_DEER,Sudden Deer Indicator,NUMBER,"0 = No, 1 = Yes"
+228,SUV_COUNT,Total count of sport utility vehicles involved,NUMBER,""
+229,SV_RUN_OFF_RD,Single Vehicle Run Off Road Indicator,NUMBER,"0 = No, 1 = Yes"
+230,TAILGATING,Tailgating Indicator,NUMBER,"0 = No, 1 = Yes"
+231,TCD_FUNC_CD,Code for Traffic Control Device state,NUMBER,0 - No Controls
+232,"","","",1 - Device not Functioning
+233,"","","",2 - Device Functioning improperly
+234,"","","",3 - Device Functioning properly
+235,"","","",4 - Emergency Preemptive Signal
+236,"","","",9 - Unknown
+237,TCD_TYPE,Code that defines the Traffic Control Device,TEXT,0 - Not applicable
+238,"","","",1 - Flashing traffic signal
+239,"","","",2 - Traffic signal
+240,"","","",3 - Stop sign
+241,"","","",4 - Yield sign
+242,"","","",5 - Active RR crossing controls
+243,"","","",6 - Passive RR crossing controls
+244,"","","",7 - Police officer or flagman
+245,"","","",8 - Other Type TCD
+246,"","","",9 - Unknown
+247,TFC_DETOUR_IND,Was the Traffic Detoured? (Y/N),TEXT,"0 = No, 1 = Yes"
+248,TIME_OF_DAY,The time of day when the crash occurred,TEXT,""
+249,TRAIN,Train Indicator,NUMBER,"0 = No, 1 = Yes"
+250,TRAIN_TROLLEY,Train or Trolley Indicator,NUMBER,"0 = No, 1 = Yes"
+251,TROLLEY,Trolley Indicator,NUMBER,"0 = No, 1 = Yes"
+252,TURNPIKE,Turnpike Indicator,NUMBER,"0 = No, 1 = Yes"
+253,UNB_DEATH_COUNT,No. of people killed not wearing a seatbelt,NUMBER,""
+254,UNB_MAJ_INJ_COUNT,Total # of unbelted sustaining Major Injuries,NUMBER,""
+255,UNBELTED,Anyone in crash unbelted indicator,NUMBER,"0 = No, 1 = Yes"
+256,UNBELTED_OCC_COUNT,Total count of all unbelted occupants,NUMBER,""
+257,UNDERAGE_DRNK_DRV,Under Age drinking driver Indicator,NUMBER,"0 = No, 1 = Yes"
+258,UNK_INJ_DEG_COUNT,No. of injuries with unknown severity,NUMBER,""
+259,UNK_INJ_PER_COUNT,No. of people that are unknown if injured,NUMBER,""
+260,UNLICENSED,Unlicensed Driver Indicator,NUMBER,"0 = No, 1 = Yes"
+261,UNSIGNALIZED_INT,Unsignalized Intersection Indicator,NUMBER,"0 = No, 1 = Yes"
+262,URBAN_RURAL,Code to classify crash as Urban or Rural,TEXT,1 - RURAL
+263,"","","","2 - SMALL URBAN AREA (pop. To 49,999)"
+264,"","","","3 - URBANIZED AREA (pop. 50,000 to 199,999)"
+265,"","","","4 - URBANIZED AREA (pop. 200,000 or more)"
+266,VAN_COUNT,Total amount of vans involved,NUMBER,""
+267,VEHICLE_COUNT,Total amount of all vehicles involved,NUMBER,""
+268,VEHICLE_FAILURE,Vehicle Failure Indicator,NUMBER,"0 = No, 1 = Yes"
+269,VEHICLE_TOWED,Vehicle Towed Indicator,NUMBER,"0 = No, 1 = Yes"
+270,WEATHER,Code for the weather type at time of crash,TEXT,1 - No adverse conditions
+271,"","","",2 - Rain
+272,"","","",3 - Sleet (hail)
+273,"","","",4 - Snow
+274,"","","",5 - Fog
+275,"","","",6 - Rain and fog
+276,"","","",7 - Sleet and fog
+277,"","","",8 - Other
+278,"","","",9 - Unknown
+279,WET_ROAD,Wet Road Indicator,NUMBER,"0 = No, 1 = Yes"
+280,WORK_ZONE,Work Zone Indicator,NUMBER,"0 = No, 1 = Yes"
+281,WK_ZONE_IND,Did the crash occur in a work zone (Y/N),TEXT,"0 = No, 1 = Yes"
+282,WORK_ZONE_LOC,The Work Zone Location Code,TEXT,1 - Before the 1st work zone warning sign
+283,"","","",2 - Advance warning area
+284,"","","",3 - Transition area
+285,"","","",4 - Activity area
+286,"","","",5 - Termination area
+287,"","","",8 - Other
+288,WORK_ZONE_TYPE,Code to define the type of Work Zone,WORK_ZONE_TYPE,1 - Construction
+289,"","","",2 - Maintenance
+290,"","","",3 - Utility company
+291,WORKERS_PRES,Were construction personnel present? (Y/N),TEXT,"0 = No, 1 = Yes"
+292,WZ_CLOSE_DETOUR,Was traffic rerouted due to work zone?(Y/N),TEXT,"0 = No, 1 = Yes"
+293,WZ_FLAGGER,Did Work zone have a flagman? (Y/N),TEXT,"0 = No, 1 = Yes"
+294,WZ_LAW_OFFCR_IND,Did Work zone have a patrolman? (Y/N),TEXT,"0 = No, 1 = Yes"
+295,WZ_LN_CLOSURE,Did Work zone have a lane closure? (Y/N),TEXT,"0 = No, 1 = Yes"
+296,WZ_MOVING,Was there moving work in the zone? (Y/N),TEXT,"0 = No, 1 = Yes"
+297,WZ_OTHER,Was this a special type of work zone? (Y/N),TEXT,"0 = No, 1 = Yes"
+298,WZ_SHLDER_MDN,Was a median/shoulder in the zone? (Y/N),TEXT,"0 = No, 1 = Yes"
