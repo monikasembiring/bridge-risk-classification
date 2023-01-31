@@ -1,16 +1,11 @@
 # Bridge Risk Analysis
 This analysis was originally a project I (Monika Sembiring) did with my friend Tina Feng in our 95885 - Data Science and Big Data class at Carnegie Mellon University. 
 
-#### -- Project Status: [Completed]
-
 ## Project Intro/Objective
 The purpose of this project is to predict the conditions category of the bridges in Allegheny County, whether it is Good, Poor, or Fair, based on the bridge features and other factors that affect the bridge conditions, such as traffic and the number of crashes that happened on that bridge. With this prediction, the government can prioritize bridge inspection and maintenance for bridges with bad conditions ahead. Regarding the bridges that are still in excellent condition, the insight will encourage better preservation to maintain the sustainability of the bridges.
 
 ### Partner
-* [Tina Feng]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+* Tina Feng
 
 ### Methods Used
 * Inferential Statistics
