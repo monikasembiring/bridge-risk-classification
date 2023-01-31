@@ -20,7 +20,7 @@ In January 2022, Fern Hollow Bridge collapsed on the day President Biden visited
 * Random Forest
 * Gradient Boosting
 
-## Featured Notebooks/Analysis/Deliverables
+## Result
 * Best model for bridge condition classification is Random Forest, with an accuracy of 77.8% and a recall rate of 64.1%.
 * The most important features in determining bridges' condition are Substructure Condition, Superstructure Condition, Reconstruction Age, Age, Deck Condition, and Rehab/Replace Eligibility.
 * On top of the predicted condition result, maintenance prioritization will be evaluated with the availability of alternative routes, bridge size, traffic amount, and estimated maintenance cost.
